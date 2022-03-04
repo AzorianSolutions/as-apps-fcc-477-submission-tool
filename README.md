@@ -8,6 +8,10 @@ Company Website: https://azorian.solutions
 
 Support: https://azorian.solutions/#contact
 
+# License
+
+This project applies the Creative Commons Attribution-NoDerivatives 4.0 International license which essentially means you can re-distribute this app but you can not modify it and must maintain all attribution to it's author(s). See <a href="./LICENSE">here</a> for the full license of the project.
+
 # Requirements
 
 ## Python Libraries
