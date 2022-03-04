@@ -41,9 +41,11 @@ include transmission technology 50 (Optical Carrier).
 If you're dealing with a scenario that is less than standard with your CSV files, you can also override the delimiter
 and quoting character settings with the following arguments:
 
--D ( --delimiter ): The delimiter to use for reading source CSV files. Defaults to the comma character ( , )
+#### -D ( --delimiter )
+The delimiter to use for reading source CSV files. Defaults to the comma character ( , )
 
--q ( --quote ): The quoting character to use when reading source CSV files. Defaults to the double quote character ( " )
+#### -q ( --quote )
+The quoting character to use when reading source CSV files. Defaults to the double quote character ( " )
 
 #### Example:
 
