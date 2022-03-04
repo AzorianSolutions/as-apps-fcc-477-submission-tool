@@ -1,3 +1,13 @@
+# Project
+
+By Matt Scott @ Azorian Solutions
+
+Project Home: https://gitlab.azorian.solutions/as-apps/fcc-477-submission-tool
+
+Company Website: https://azorian.solutions
+
+Support: https://azorian.solutions/#contact
+
 # Requirements
 
 ## Python Libraries
