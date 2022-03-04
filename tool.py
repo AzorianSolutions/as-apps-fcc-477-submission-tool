@@ -156,9 +156,10 @@ if args.mode == 'bs':
                         row[col] = line[c]
                 c += 1
 
-            if missing and args.warn:
-                Lib.bs_status_msg('One or more required column values are missing from line number '
-                                  + str(line_number + 1), buffer=False)
+            if missing:
+                if args.warn:
+                    Lib.bs_status_msg('One or more required column values are missing from line number '
+                                      + str(line_number + 1), buffer=False)
             else:
                 if args.aux and 'aux' in row:
                     # Extract the customer's plan speeds from the provided aux column
