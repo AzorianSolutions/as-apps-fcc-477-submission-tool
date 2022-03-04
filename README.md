@@ -45,7 +45,7 @@ and quoting character settings with the following arguments:
 
 -q ( --quote ): The quoting character to use when reading source CSV files. Defaults to the double quote character ( " )
 
-Example:
+#### Example:
 
 > ./tool.py -m bd -s ./FCCData.csv -t ./deployment.csv -D '|' -q '`'
 
@@ -69,13 +69,16 @@ should be sufficient for a large number of operators though.
 
 To run the tool in this mode, the following are the minimum arguments you must define to get started:
 
--m ( --mode ): The app mode run, in this scenario you should use "bd".
+#### -m ( --mode )
+The app mode run, in this scenario you should use "bd".
 
--s ( --source ): The source CSV file to mutate data from.
+#### -s ( --source )
+The source CSV file to mutate data from.
 
--t ( --target ): The target CSV file to save the mutated data into.
+#### -t ( --target )
+The target CSV file to save the mutated data into.
 
-Example:
+#### Example:
 
 To run an interactive process of a TowerCoverage deployment data export using all defaults, execute
 something like the following:
@@ -87,15 +90,19 @@ something like the following:
 There are four configuration options that are normally collected through interactive mode. These options can be provided
 at runtime via CLI arguments which are as follows:
 
--c ( --consumer ): If consumer broadband service is available in all Census blocks then yes, no otherwise.
+#### -c ( --consumer )
+If consumer broadband service is available in all Census blocks then yes, no otherwise.
 
--b ( --business ): If business / government broadband service is available in all Census blocks then yes, no otherwise.
+#### -b ( --business )
+If business / government broadband service is available in all Census blocks then yes, no otherwise.
 
--d ( --downstream ): Maximum consumer broadband downstream plan speed advertised in all Census blocks (Mbps)
+#### -d ( --downstream )
+Maximum consumer broadband downstream plan speed advertised in all Census blocks (Mbps)
 
--u ( --upstream ): Maximum consumer broadband upstream plan speed advertised in all Census blocks (Mbps)
+#### -u ( --upstream )
+Maximum consumer broadband upstream plan speed advertised in all Census blocks (Mbps)
 
-Example:
+#### Example:
 
 This example assumes you offer both consumer and business / government broadband service in all included Census blocks with a
 maximum advertised speed plan of 75 Mbps downstream and 15 Mbps upstream.
